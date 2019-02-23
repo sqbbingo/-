@@ -1,0 +1,21 @@
+<view>
+        <!-- 设备在线状态显示 -->
+        <view class="btnGroup"> 
+                <view class="led-imeag"><image src="{{online_state_imag}}"></image></view>
+                <text> {{online_state_text}} </text>
+        </view>
+        <!-- led1 -->
+        <view class="btnGroup">
+                <view class="led-imeag"><image src="/images/color_led.png"></image></view>
+                <navigator url="/pages/led_config/led_config" class="led-text" navigate><view class="led-text">{{led1_state}}</view></navigator>
+                <switch checked="{{message.water.state}}" bindchange="switch1Change"></switch>
+                <text> {{ var1 }} </text>                              
+        </view>
+        <view class="btnGroup">
+                <view class="led-imeag"><image src="/images/led_on.png"></image></view>
+                <navigator url="/pages/led2_config/led2_config" class="led-text" navigate><view class="led-text">{{led2_state}}</view></navigator>
+                <switch checked="{{message.led2.state}}" bindchange="switch2Change"></switch>
+                <text> {{ var2 }} </text>             
+        </view>
+        
+</view>

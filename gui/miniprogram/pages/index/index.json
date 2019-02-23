@@ -1,0 +1,8 @@
+{
+        "backgroundTextStyle":"light",
+        "navigationBarBackgroundColor":"#fff",
+        "navigationBarTitleText":"led控制页面",
+        "navigationBarTextStyle":"black",
+        "enablePullDownRefresh": true, 
+        "backgroundColor": "#a9a9a9" 
+}

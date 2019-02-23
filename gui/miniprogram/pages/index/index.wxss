@@ -1,0 +1,114 @@
+/*外层容器*/
+.content{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-sizing: border-box;
+        padding-top: 10rpx;
+}
+
+/*计算结果*/
+.screen{
+        background-color: #ffffff;
+        text-align: right;
+        width: 650rpx;
+        height: 150rpx;
+        line-height: 150rpx;
+        padding: 0 20rpx;
+        margin: 30rpx;
+        border: 1px solid #ddd;
+        border-radius: 3px;
+}
+
+/*按钮组*/
+.btnGroup{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-bottom: 1px solid #eee;
+        height: 40rpx;
+        padding: 40rpx;
+}
+
+/*按钮*/
+.item{
+        width: 160rpx;
+        min-height: 150rpx;
+        margin: 10rpx;
+        text-shadow: 0 1px 1px rgba(0,0,0 0.3);
+        border-radius: 5px;
+        text-align: center;
+        line-height: 150rpx;
+}
+
+/*每行led*/
+.leditem{
+        height: 3rem;
+        line-height: 1.5rem;
+        display: flex;
+        border-bottom: 1px solid #eee;
+        padding: 10rpx;
+        width: 100%;
+}
+
+/*左侧的led灯图标*/
+/*.led-imeag{
+        width: 15%;
+        text-align: center;
+        vertical-align: middle;
+}*/
+
+.led-imeag image{
+        /*line-height: 3rem;*/
+        width: 80rpx;
+        height: 80rpx;
+        /*padding-top: 3px;*/
+        /*padding: 50rpx;*/
+
+}
+
+/*led行中显示在状态*/
+.led-text {
+        width: 60%;
+        height: 80rpx;
+        text-align: center;
+        /*padding: 20px;*/
+}
+
+/*switch的细节内容*/
+.led-switch {
+        width: 25%;
+        text-align: right;
+        /*vertical-align: middle;*/
+}
+
+.led-switch switch {
+        white-space: nowrap;
+        width: 100%;
+        /*height: 100%;*/
+        padding: 40rpx;
+}
+
+.switch_style{
+        padding-right: 30rpx;
+}
+
+/*控制按钮（橙色）*/
+.orange{
+        background-color: #f78d1d;
+        color: #fef4e9;
+        border: solid 1px #da7c0c;
+}
+
+/*数字按钮（蓝色）*/
+.blue{
+        background-color: #0095cd;
+        color: #d9eef7;
+        border: solid 1px #0076a3;
+}
+
+/*数字按钮按下状态*/
+.other-button-hover{
+        background-color: red;
+}

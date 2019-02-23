@@ -1,0 +1,21 @@
+{
+    "wifi":{
+        "ssid":["wf","nodemcu"],
+        "pwd":["su666688886","12345678"]
+    },
+    "mqtt":{
+        "productId":"194413",
+        "apiKey":"Vt2rLag7l9LtcqUn7dT87psfxEY=",
+        "deviceId":"517500623",
+        "authInfo":"homewater",
+        "subscribe":["/water/on","/water/off"]
+    },
+    "water":{
+        "state":0
+    },
+    "length":{
+        "year":[],
+        "month":[],
+        "day":[]
+    }
+}
